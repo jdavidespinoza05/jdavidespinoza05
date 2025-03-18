@@ -2,7 +2,7 @@ Hey! 👋
 
 🚀 Computer Science Engineering Student | Frontend & Game Dev
 
-💡 Passionate about technology, programming, and creativity.
+💡 Passionate about technology, programming, and creativity. <br>
 
 
 
