@@ -10,11 +10,11 @@ Hey! 👋
 
 🎓 Currently studying Computer Science Engineering at TEC Costa Rica
 
-🔭 Currently working on: [Project Name] (or just "personal projects")
+🔭 Currently working on: Personal and College projects
 
 🌱 Learning: UI/UX, JavaScript, and Web Development
 
-📫 How to reach me: Your LinkedIn | Your Email
+📫 How to reach me: www.linkedin.com/in/jdavid-espinoza
 
   <!-- Esto crea un espacio vacío entre los párrafos -->
 
