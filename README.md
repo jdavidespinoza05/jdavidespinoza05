@@ -5,6 +5,7 @@ Hey! 👋
 💡 Passionate about technology, programming, and creativity.
 
 
+
 🔹 About Me
 
 🎓 Currently studying Computer Science Engineering at TEC Costa Rica
@@ -14,6 +15,7 @@ Hey! 👋
 🌱 Learning: UI/UX, JavaScript, and Web Development
 
 📫 How to reach me: Your LinkedIn | Your Email
+
 
 
 🔹 Technologies & Tools
