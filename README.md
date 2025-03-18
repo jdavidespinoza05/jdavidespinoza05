@@ -1,4 +1,5 @@
 Hey! 👋
+
 🚀 Computer Science Engineering Student | Frontend & Game Dev
 
 💡 Passionate about technology, programming, and creativity.
@@ -6,14 +7,19 @@ Hey! 👋
   <!-- Esto crea un espacio vacío entre los párrafos -->
 
 🔹 About Me
+
 🎓 Currently studying Computer Science Engineering at TEC Costa Rica
+
 🔭 Currently working on: [Project Name] (or just "personal projects")
+
 🌱 Learning: UI/UX, JavaScript, and Web Development
+
 📫 How to reach me: Your LinkedIn | Your Email
 
   <!-- Esto crea un espacio vacío entre los párrafos -->
 
 🔹 Technologies & Tools
+
 💻 C++ | Python | JavaScript | HTML | CSS
 
 <!--
