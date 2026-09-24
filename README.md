@@ -64,6 +64,6 @@
 
 <div align="center">
 
-*"I like building things from scratch — code, worlds, and everything in between."*
+*"Code, design, games. usually all three at once, and i love it."*
 
 </div>
