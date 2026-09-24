@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 1200 320" width="1200" height="320" role="img"
+     aria-label="Jose David Espinoza - Full-Stack Developer in the making, Game Dev, Design-driven">
+  <title>Jose David Espinoza</title>
+
+  <!-- ============================================================
+       LAYOUT (viewBox 1200 x 320)
+       frame (glass) ...... x 10..1190, y 10..310
+       title bar .......... y 10..44
+       toolbar strip ...... y 44..64
+       content (sky) ...... y 64..260   <- clouds + text live here
+       control bar ........ y 260..302
+       ============================================================ -->
+
+  <defs>
+    <!-- Aero glass: the translucent blue frame of Windows 7 -->
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"    stop-color="#e4eff9"/>
+      <stop offset="0.12" stop-color="#c9dcef"/>
+      <stop offset="1"    stop-color="#b2c9e2"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Sky: change these three stops to recolor the whole scene -->
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"    stop-color="#3a80cf"/>
+      <stop offset="0.55" stop-color="#80b9ea"/>
+      <stop offset="1"    stop-color="#d4ebfb"/>
+    </linearGradient>
+
+    <linearGradient id="toolbar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6f9fd"/>
+      <stop offset="1" stop-color="#dde8f4"/>
+    </linearGradient>
+    <linearGradient id="bottombar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"   stop-color="#eef4fb"/>
+      <stop offset="0.5" stop-color="#d9e6f3"/>
+      <stop offset="1"   stop-color="#c3d6ea"/>
+    </linearGradient>
+    <linearGradient id="capBtn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"   stop-color="#f7fafd"/>
+      <stop offset="0.5" stop-color="#e3ecf6"/>
+      <stop offset="1"   stop-color="#cbdbec"/>
+    </linearGradient>
+    <linearGradient id="closeBtn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"   stop-color="#eba495"/>
+      <stop offset="0.5" stop-color="#d0533b"/>
+      <stop offset="1"   stop-color="#c2412a"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="0.5" cy="0.3" r="0.75">
+      <stop offset="0"   stop-color="#b9e2ff"/>
+      <stop offset="0.5" stop-color="#2f86d8"/>
+      <stop offset="1"   stop-color="#0d4c96"/>
+    </radialGradient>
+
+    <!-- Only what's inside the content area gets drawn for clouds -->
+    <clipPath id="content">
+      <rect x="18" y="64" width="1164" height="196"/>
+    </clipPath>
+
+    <!-- One cloud shape, reused many times with <use> -->
+    <g id="cloud">
+      <ellipse cx="0"   cy="0"   rx="62" ry="22"/>
+      <circle  cx="-28" cy="-12" r="22"/>
+      <circle  cx="8"   cy="-22" r="30"/>
+      <circle  cx="40"  cy="-8"  r="20"/>
+    </g>
+
+    <!-- two stacked shadows: a tight one for edge contrast, a wide one for glow,
+         so white text stays readable even when a white cloud drifts behind it -->
+    <filter id="textShadow" x="-10%" y="-40%" width="120%" height="180%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1"   flood-color="#0b3b73" flood-opacity="0.85"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="4.5" flood-color="#0b3b73" flood-opacity="0.6"/>
+    </filter>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1.5"/>
+    </filter>
+  </defs>
+
+  <style>
+    /* Windows 7 used Segoe UI; the rest are fallbacks for Mac/Linux viewers */
+    text { font-family: "Segoe UI", Tahoma, Verdana, "DejaVu Sans", sans-serif; }
+
+    /* Each cloud moves right -> left forever. Duration = speed.
+       Negative delays start them mid-trip so the sky is never empty. */
+    .drift { animation: drift linear infinite; }
+    @keyframes drift {
+      from { transform: translateX(0); }
+      to   { transform: translateX(-1560px); }
+    }
+    .c1 { animation-duration: 70s;  animation-delay: -10s; }
+    .c2 { animation-duration: 95s;  animation-delay: -45s; }
+    .c3 { animation-duration: 58s;  animation-delay: -32s; }
+    .c4 { animation-duration: 85s;  animation-delay: -68s; }
+    .c5 { animation-duration: 66s;  animation-delay: -55s; }
+    .c6 { animation-duration: 110s; animation-delay: -92s; }
+    .c7 { animation-duration: 78s;  animation-delay: -25s; }
+
+    /* Text fades in once, a little staggered */
+    .in1 { animation: rise 1.2s ease-out both; }
+    .in2 { animation: rise 1.2s 0.35s ease-out both; }
+    .in3 { animation: rise 1.2s 0.9s ease-out both; }
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(8px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* The slideshow button breathes, like it's waiting for a click */
+    .pulse { animation: pulse 3.2s ease-in-out infinite; }
+    @keyframes pulse {
+      0%, 100% { opacity: 0; }
+      50%      { opacity: 0.55; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .drift, .in1, .in2, .in3, .pulse { animation: none; }
+    }
+  </style>
+
+  <!-- ===================== WINDOW FRAME ===================== -->
+  <rect x="10" y="10" width="1180" height="300" rx="7" fill="url(#glass)" stroke="#57789c" stroke-width="1.2"/>
+  <rect x="11" y="11" width="1178" height="34" rx="6" fill="url(#sheen)"/>
+  <!-- light streaks across the glass, very Aero -->
+  <g fill="#ffffff" opacity="0.18">
+    <polygon points="210,11 262,11 232,44 180,44"/>
+    <polygon points="280,11 300,11 270,44 250,44"/>
+    <polygon points="760,11 830,11 800,44 730,44"/>
+  </g>
+
+  <!-- title: tiny picture icon + file name -->
+  <rect x="22" y="19" width="16" height="13" rx="1.5" fill="url(#sky)" stroke="#3f6286" stroke-width="0.8"/>
+  <ellipse cx="30" cy="28" rx="6" ry="2.5" fill="#ffffff" opacity="0.9"/>
+  <text x="46" y="31" font-size="13" fill="#1d3a5c">jose_david_espinoza.png - Profile Viewer</text>
+
+  <!-- minimize / maximize / close -->
+  <g stroke="#4c6d92" stroke-width="1">
+    <rect x="1071" y="10.5" width="27" height="19" rx="3" fill="url(#capBtn)"/>
+    <rect x="1098" y="10.5" width="27" height="19" rx="3" fill="url(#capBtn)"/>
+    <rect x="1125" y="10.5" width="47" height="19" rx="3" fill="url(#closeBtn)" stroke="#8e2c1c"/>
+  </g>
+  <rect x="1079" y="22" width="11" height="3" rx="0.5" fill="#2c4b6e"/>
+  <rect x="1106" y="15" width="11" height="9" fill="none" stroke="#2c4b6e" stroke-width="1.6"/>
+  <path d="M1143 14.5 L1154 25.5 M1154 14.5 L1143 25.5" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/>
+
+  <!-- ===================== TOOLBAR STRIP ===================== -->
+  <rect x="18" y="44" width="1164" height="20" fill="url(#toolbar)"/>
+  <line x1="18" y1="63.5" x2="1182" y2="63.5" stroke="#9fb7d0"/>
+  <circle cx="1166" cy="54" r="7" fill="url(#orb)" stroke="#12488a" stroke-width="0.8"/>
+  <text x="1166" y="58" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">?</text>
+
+  <!-- ===================== SKY (content) ===================== -->
+  <rect x="18" y="64" width="1164" height="196" fill="url(#sky)"/>
+
+  <g clip-path="url(#content)">
+    <!-- static cloud bank sitting on the horizon -->
+    <g fill="#ffffff" opacity="0.55" filter="url(#soft)">
+      <circle cx="40"   cy="272" r="46"/>
+      <circle cx="120"  cy="262" r="40"/>
+      <circle cx="210"  cy="276" r="52"/>
+      <circle cx="320"  cy="266" r="38"/>
+      <circle cx="420"  cy="280" r="50"/>
+      <circle cx="540"  cy="270" r="42"/>
+      <circle cx="660"  cy="282" r="54"/>
+      <circle cx="780"  cy="268" r="40"/>
+      <circle cx="880"  cy="278" r="48"/>
+      <circle cx="990"  cy="264" r="42"/>
+      <circle cx="1090" cy="276" r="50"/>
+      <circle cx="1175" cy="266" r="40"/>
+    </g>
+
+    <!-- drifting clouds: translate(start_x y) scale(size) -->
+    <g fill="#ffffff" filter="url(#soft)">
+      <g class="drift c6" opacity="0.45"><use xlink:href="#cloud" href="#cloud" transform="translate(1320 128) scale(1.25)"/></g>
+      <g class="drift c4" opacity="0.6"> <use xlink:href="#cloud" href="#cloud" transform="translate(1300 92) scale(0.6)"/></g>
+      <g class="drift c2" opacity="0.7"> <use xlink:href="#cloud" href="#cloud" transform="translate(1300 156) scale(0.85)"/></g>
+      <g class="drift c1" opacity="0.9"> <use xlink:href="#cloud" href="#cloud" transform="translate(1310 112) scale(1.05)"/></g>
+      <g class="drift c7" opacity="0.8"> <use xlink:href="#cloud" href="#cloud" transform="translate(1300 196) scale(0.75)"/></g>
+      <g class="drift c5" opacity="0.85"><use xlink:href="#cloud" href="#cloud" transform="translate(1320 226) scale(1.1)"/></g>
+      <g class="drift c3" opacity="0.9"> <use xlink:href="#cloud" href="#cloud" transform="translate(1340 244) scale(1.45)"/></g>
+    </g>
+  </g>
+
+  <!-- the same line the character says in the profile picture -->
+  <text class="in1" x="46" y="100" font-size="21" font-weight="700" fill="#34495e">yo wsp, david here</text>
+
+  <!-- name + tagline -->
+  <g filter="url(#textShadow)">
+    <text class="in2" x="600" y="172" font-size="54" font-weight="600" fill="#ffffff" text-anchor="middle">Jose David Espinoza</text>
+    <text class="in3" x="600" y="212" font-size="20" fill="#ffffff" text-anchor="middle">Full-Stack Developer in the making  ·  Game Dev  ·  Design-driven</text>
+  </g>
+
+  <!-- ===================== CONTROL BAR ===================== -->
+  <rect x="18" y="260" width="1164" height="42" fill="url(#bottombar)"/>
+  <line x1="18" y1="260.5" x2="1182" y2="260.5" stroke="#98b1cb"/>
+
+  <!-- left: zoom + fit -->
+  <g stroke="#2e5f95" stroke-width="2" fill="none" stroke-linecap="round">
+    <circle cx="52" cy="279" r="6"/>
+    <line x1="56.5" y1="283.5" x2="61" y2="288"/>
+    <rect x="86" y="273" width="14" height="12" rx="1.5"/>
+  </g>
+  <path d="M66 279 l4 0 l-2 3 z" fill="#2e5f95"/>
+
+  <!-- center: previous / slideshow orb / next -->
+  <rect x="530" y="272" width="40" height="18" rx="9" fill="url(#capBtn)" stroke="#7b98b8"/>
+  <path d="M546 281 l8 -5 v10 z M544 276 v10" fill="#2e5f95" stroke="#2e5f95" stroke-width="1.6"/>
+  <rect x="630" y="272" width="40" height="18" rx="9" fill="url(#capBtn)" stroke="#7b98b8"/>
+  <path d="M654 281 l-8 -5 v10 z M656 276 v10" fill="#2e5f95" stroke="#2e5f95" stroke-width="1.6"/>
+
+  <circle cx="600" cy="281" r="17" fill="url(#orb)" stroke="#0b3d7a" stroke-width="1.2"/>
+  <circle class="pulse" cx="600" cy="281" r="17" fill="#bfe6ff"/>
+  <ellipse cx="600" cy="273" rx="11" ry="5.5" fill="#ffffff" opacity="0.45"/>
+  <path d="M595 273.5 L607 281 L595 288.5 Z" fill="#ffffff"/>
+
+  <!-- right: rotate left / rotate right / delete -->
+  <g stroke="#2e6fb8" stroke-width="2.2" fill="none" stroke-linecap="round">
+    <path d="M1052 285 a7 7 0 1 1 7 4"/>
+    <path d="M1096 285 a7 7 0 1 0 -7 4"/>
+  </g>
+  <path d="M1048 281 l4 5 l4 -4 z" fill="#2e6fb8"/>
+  <path d="M1100 281 l-4 5 l-4 -4 z" fill="#2e6fb8"/>
+  <line x1="1110" y1="272" x2="1110" y2="290" stroke="#aac0d6"/>
+  <path d="M1131 275 L1143 287 M1143 275 L1131 287" stroke="#d0402b" stroke-width="3" stroke-linecap="round"/>
+</svg>
