@@ -61,13 +61,40 @@
       <rect x="18" y="64" width="1164" height="196"/>
     </clipPath>
 
-    <!-- One cloud shape, reused many times with <use> -->
+    <!-- Base mist shape: a few wide, flat ellipses. On their own they look like
+         blobs; the "fog" filter below is what turns them into wispy mist. -->
     <g id="cloud">
-      <ellipse cx="0"   cy="0"   rx="62" ry="22"/>
-      <circle  cx="-28" cy="-12" r="22"/>
-      <circle  cx="8"   cy="-22" r="30"/>
-      <circle  cx="40"  cy="-8"  r="20"/>
+      <ellipse cx="0"   cy="0"   rx="130" ry="26"/>
+      <ellipse cx="-60" cy="-10" rx="70"  ry="22"/>
+      <ellipse cx="50"  cy="-14" rx="80"  ry="24"/>
+      <ellipse cx="110" cy="4"   rx="55"  ry="16"/>
     </g>
+
+    <!-- FOG FILTER - how the realistic mist is made:
+         1. feTurbulence generates random "fractal noise" (like Perlin noise in games).
+            baseFrequency = size of the puffs (lower = bigger, softer);
+            the 2nd value is higher so the noise is stretched sideways, like wind.
+         2. feDisplacementMap uses that noise to push the ellipse's pixels around,
+            so its hard edge becomes ragged and wispy. scale = how much it's torn apart.
+         3. feColorMatrix turns the noise into a white texture with transparent holes,
+            and feComposite "in" keeps that texture only inside the torn shape.
+         4. feGaussianBlur softens everything so it reads as mist, not as a shape. -->
+    <filter id="fog" x="-40%" y="-120%" width="180%" height="340%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.009 0.03" numOctaves="4" seed="7" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="70" xChannelSelector="R" yChannelSelector="G" result="torn"/>
+      <feGaussianBlur in="torn" stdDeviation="7" result="shape"/>
+      <feColorMatrix in="noise" type="matrix" result="texture"
+        values="0 0 0 0 1
+                0 0 0 0 1
+                0 0 0 0 1
+                0 0 0 2.2 -0.55"/>
+      <feComposite in="texture" in2="shape" operator="in" result="wisps"/>
+      <feGaussianBlur in="wisps" stdDeviation="2.5" result="wispsSoft"/>
+      <feMerge>
+        <feMergeNode in="shape"/>
+        <feMergeNode in="wispsSoft"/>
+      </feMerge>
+    </filter>
 
     <!-- two stacked shadows: a tight one for edge contrast, a wide one for glow,
          so white text stays readable even when a white cloud drifts behind it -->
@@ -89,7 +116,7 @@
     .drift { animation: drift linear infinite; }
     @keyframes drift {
       from { transform: translateX(0); }
-      to   { transform: translateX(-1560px); }
+      to   { transform: translateX(-1900px); }
     }
     .c1 { animation-duration: 70s;  animation-delay: -10s; }
     .c2 { animation-duration: 95s;  animation-delay: -45s; }
@@ -133,7 +160,7 @@
   <!-- title: tiny picture icon + file name -->
   <rect x="22" y="19" width="16" height="13" rx="1.5" fill="url(#sky)" stroke="#3f6286" stroke-width="0.8"/>
   <ellipse cx="30" cy="28" rx="6" ry="2.5" fill="#ffffff" opacity="0.9"/>
-  <text x="46" y="31" font-size="13" fill="#1d3a5c">jose_david_espinoza.png - Profile Viewer</text>
+  <text x="46" y="31" font-size="13" fill="#1d3a5c">david_espinoza.exe</text>
 
   <!-- minimize / maximize / close -->
   <g stroke="#4c6d92" stroke-width="1">
@@ -155,36 +182,19 @@
   <rect x="18" y="64" width="1164" height="196" fill="url(#sky)"/>
 
   <g clip-path="url(#content)">
-    <!-- static cloud bank sitting on the horizon -->
-    <g fill="#ffffff" opacity="0.55" filter="url(#soft)">
-      <circle cx="40"   cy="272" r="46"/>
-      <circle cx="120"  cy="262" r="40"/>
-      <circle cx="210"  cy="276" r="52"/>
-      <circle cx="320"  cy="266" r="38"/>
-      <circle cx="420"  cy="280" r="50"/>
-      <circle cx="540"  cy="270" r="42"/>
-      <circle cx="660"  cy="282" r="54"/>
-      <circle cx="780"  cy="268" r="40"/>
-      <circle cx="880"  cy="278" r="48"/>
-      <circle cx="990"  cy="264" r="42"/>
-      <circle cx="1090" cy="276" r="50"/>
-      <circle cx="1175" cy="266" r="40"/>
-    </g>
-
-    <!-- drifting clouds: translate(start_x y) scale(size) -->
-    <g fill="#ffffff" filter="url(#soft)">
-      <g class="drift c6" opacity="0.45"><use xlink:href="#cloud" href="#cloud" transform="translate(1320 128) scale(1.25)"/></g>
-      <g class="drift c4" opacity="0.6"> <use xlink:href="#cloud" href="#cloud" transform="translate(1300 92) scale(0.6)"/></g>
-      <g class="drift c2" opacity="0.7"> <use xlink:href="#cloud" href="#cloud" transform="translate(1300 156) scale(0.85)"/></g>
-      <g class="drift c1" opacity="0.9"> <use xlink:href="#cloud" href="#cloud" transform="translate(1310 112) scale(1.05)"/></g>
-      <g class="drift c7" opacity="0.8"> <use xlink:href="#cloud" href="#cloud" transform="translate(1300 196) scale(0.75)"/></g>
-      <g class="drift c5" opacity="0.85"><use xlink:href="#cloud" href="#cloud" transform="translate(1320 226) scale(1.1)"/></g>
-      <g class="drift c3" opacity="0.9"> <use xlink:href="#cloud" href="#cloud" transform="translate(1340 244) scale(1.45)"/></g>
+    <!-- drifting mist: translate(start_x y) scale(size).
+         Each one sits in a different spot of the noise, so no two look alike. -->
+    <g fill="#ffffff">
+      <g class="drift c6" opacity="0.35"><use xlink:href="#cloud" href="#cloud" filter="url(#fog)" transform="translate(1450 120) scale(1.3 1.1)"/></g>
+      <g class="drift c4" opacity="0.45"><use xlink:href="#cloud" href="#cloud" filter="url(#fog)" transform="translate(1400 88) scale(0.7)"/></g>
+      <g class="drift c2" opacity="0.5"> <use xlink:href="#cloud" href="#cloud" filter="url(#fog)" transform="translate(1420 160) scale(0.9)"/></g>
+      <g class="drift c1" opacity="0.7"> <use xlink:href="#cloud" href="#cloud" filter="url(#fog)" transform="translate(1430 112) scale(1.1)"/></g>
+      <g class="drift c7" opacity="0.55"><use xlink:href="#cloud" href="#cloud" filter="url(#fog)" transform="translate(1400 200) scale(0.8)"/></g>
+      <g class="drift c5" opacity="0.65"><use xlink:href="#cloud" href="#cloud" filter="url(#fog)" transform="translate(1440 236) scale(1.2)"/></g>
+      <g class="drift c3" opacity="0.6"> <use xlink:href="#cloud" href="#cloud" filter="url(#fog)" transform="translate(1460 256) scale(1.5 1.2)"/></g>
     </g>
   </g>
 
-  <!-- the same line the character says in the profile picture -->
-  <text class="in1" x="46" y="100" font-size="21" font-weight="700" fill="#34495e">yo wsp, david here</text>
 
   <!-- name + tagline -->
   <g filter="url(#textShadow)">
