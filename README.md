@@ -14,16 +14,16 @@
 
 - Computer Engineering student at **Tecnológico de Costa Rica (TEC)**, Cartago
 - Working toward becoming a **Full-Stack Developer**, with a growing focus on cloud (AWS) and AI
-- Artistic at heart - I care as much about how something *looks and feels* as how it works
-- Passionate gamer and game developer - I love building and exploring interactive worlds
+- Artistic at heart — I care as much about how something *looks and feels* as how it works
+- Passionate gamer and game developer — I love building and exploring interactive worlds
 - Constantly learning: right now that's AWS, Figma, and going deeper into React
-- Driven by curiosity - I enjoy understanding how things work well enough to build them myself
+- Driven by curiosity — I enjoy understanding how things work well enough to build them myself
 - Reach me on **[LinkedIn](https://www.linkedin.com/in/jdavid-espinoza)**
-- Old Portfolio (currently working on another): **[jdavidespinoza05.github.io](https://jdavidespinoza05.github.io/)**
+- Portfolio: **[jdavidespinoza05.github.io](https://jdavidespinoza05.github.io/)**
 
 ---
 
-### 🛠️ Tech Stack
+### Tech Stack
 
 **Languages & Frameworks**
 
@@ -58,19 +58,6 @@
 <div align="left">
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
-</div>
-
----
-
-### 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jdavidespinoza05&show_icons=true&theme=default&hide_border=true&title_color=1F3864&icon_color=5B8DEF&text_color=333333" height="165"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jdavidespinoza05&hide_border=true&background=FFFFFF&stroke=1F3864&ring=5B8DEF&fire=1F3864&currStreakLabel=1F3864" height="165"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jdavidespinoza05&layout=compact&hide_border=true&title_color=1F3864&text_color=333333&langs_count=8" height="165"/>
 </div>
 
 ---
