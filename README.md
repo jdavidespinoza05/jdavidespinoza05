@@ -12,7 +12,7 @@
 
 ### About Me
 
-- Computer Engineering student at **Tecnológico de Costa Rica (TEC)**, Cartago
+- Computer Engineering student at **Tecnológico de Costa Rica (TEC)**, Cartago 
 - Working toward becoming a **Full-Stack Developer**, with a growing focus on cloud (AWS) and AI
 - Artistic at heart - I care as much about how something *looks and feels* as how it works
 - Passionate gamer and game developer - I love building and exploring interactive worlds
