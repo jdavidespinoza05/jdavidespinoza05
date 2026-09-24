@@ -19,7 +19,6 @@
 - Constantly learning: right now that's AWS, Figma, and going deeper into React
 - Driven by curiosity - I enjoy understanding how things work well enough to build them myself
 - Reach me on **[LinkedIn](https://www.linkedin.com/in/jdavid-espinoza)**
-- Old Portfolio (currently working on another): **[jdavidespinoza05.github.io](https://jdavidespinoza05.github.io/)**
 
 ---
 
