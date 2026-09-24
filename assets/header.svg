@@ -58,7 +58,7 @@
 
     <!-- Only what's inside the content area gets drawn for clouds -->
     <clipPath id="content">
-      <rect x="18" y="64" width="1164" height="196"/>
+      <rect x="18" y="40" width="1164" height="220"/>
     </clipPath>
 
     <!-- Base mist shape: a few wide, flat ellipses. On their own they look like
