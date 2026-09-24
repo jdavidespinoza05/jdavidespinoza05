@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
      viewBox="0 0 1200 320" width="1200" height="320" role="img"
-     aria-label="Jose David Espinoza - Full-Stack Developer in the making, Game Dev, Design-driven">
+     aria-label="Jose David Espinoza - Full-Stack Developer in the making">
   <title>Jose David Espinoza</title>
 
   <!-- ============================================================
@@ -199,7 +199,7 @@
   <!-- name + tagline -->
   <g filter="url(#textShadow)">
     <text class="in2" x="600" y="172" font-size="54" font-weight="600" fill="#ffffff" text-anchor="middle">Jose David Espinoza</text>
-    <text class="in3" x="600" y="212" font-size="20" fill="#ffffff" text-anchor="middle">Full-Stack Developer in the making  ·  Game Dev  ·  Design-driven</text>
+    <text class="in3" x="600" y="212" font-size="20" fill="#ffffff" text-anchor="middle">Full-Stack Developer in the making</text>
   </g>
 
   <!-- ===================== CONTROL BAR ===================== -->
