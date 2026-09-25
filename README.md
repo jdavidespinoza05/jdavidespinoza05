@@ -62,6 +62,42 @@
 
 ---
 
+### Currently Working On
+
+<table>
+  <tr>
+    <td width="55%" align="center">
+      <img src="assets/uminori.gif" width="100%" alt="Uminori preview"/>
+    </td>
+    <td width="45%">
+      <h3>Uminori</h3>
+      <p>A cozy 3D exploration game set on quiet islands surrounded by the sea. Retro, low-res look. More to come...</p>
+      <p><b>Built with:</b> Unity · C# · Shader Graph</p>
+      <img src="https://img.shields.io/badge/status-in_development-80b9ea?style=flat-square" alt="Status: in development"/>
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+</div>
+
+<table>
+  <tr>
+    <td width="55%">
+      <h3>Portfolio 2.0</h3>
+      <p>Rebuilding my personal portfolio from scratch with a retro-desktop aesthetic. Currently designing in Figma, development starts next.</p>
+      <p><b>Built with:</b> Figma · React · TypeScript · HTML5 · CSS3</p>
+      <img src="https://img.shields.io/badge/status-design_phase-80b9ea?style=flat-square" alt="Status: design phase"/>
+    </td>
+    <td width="45%" align="center">
+      <img src="assets/portfolio.png" width="220" alt="Portfolio 2.0 design preview"/>
+    </td>
+  </tr>
+</table>
+
 <div align="center">
 
 *"Code, design, games. usually all three at once, and i love it."*
