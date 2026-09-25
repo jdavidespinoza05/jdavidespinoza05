@@ -75,15 +75,6 @@
       <img src="https://img.shields.io/badge/status-in_development-80b9ea?style=flat-square" alt="Status: in development"/>
     </td>
   </tr>
-</table>
-
-<div align="center">
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-</div>
-
-<table>
   <tr>
     <td width="55%">
       <h3>Portfolio 2.0</h3>
@@ -96,6 +87,8 @@
     </td>
   </tr>
 </table>
+
+---
 
 <div align="center">
 
