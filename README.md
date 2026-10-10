@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="assets/header.svg?v=5" width="100%" alt="Jose David Espinoza - Full-Stack Developer in the making"/>
+<img src="assets/header.svg?v=6" width="100%" alt="Jose David Espinoza - Full-Stack Developer in the making"/>
 
 <a href="https://www.linkedin.com/in/jdavid-espinoza">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Computer+Engineering+Student+%40+TEC+Costa+Rica;Building+things+from+scratch;Aspiring+Full-Stack+Developer;Game+Dev+in+Unity;Always+learning+something+new&font=Fira+Code&center=true&width=550&height=45&color=80b9ea&vCenter=true&size=20" alt="Typing intro"/>
+  <img src="https://readme-typing-svg.demolab.com/?lines=Computer+Engineering+Student+%40+TEC+Costa+Rica;Building+things+from+scratch;Aspiring+Full-Stack+Developer;Game+Dev+in+Unity;Always+learning+something+new&font=Fira+Code&center=true&width=550&height=45&color=2c9ded&vCenter=true&size=20" alt="Typing intro"/>
 </a>
 
 </div>
@@ -48,7 +48,7 @@ Computer Engineering student at **Tecnológico de Costa Rica (TEC)**, working to
       <h3>Uminori</h3>
       <p>A cozy 3D exploration game set on quiet islands surrounded by the sea. Retro, low-res look. More to come...</p>
       <p><b>Built with:</b> Unity · C# · Shader Graph</p>
-      <img src="https://img.shields.io/badge/status-in_development-80b9ea?style=flat-square" alt="Status: in development"/>
+      <img src="https://img.shields.io/badge/status-in_development-78a200?style=flat-square" alt="Status: in development"/>
     </td>
   </tr>
   <tr>
@@ -56,7 +56,7 @@ Computer Engineering student at **Tecnológico de Costa Rica (TEC)**, working to
       <h3>Portfolio 2.0</h3>
       <p>Rebuilding my personal portfolio from scratch with a retro-desktop aesthetic. Designing in Figma now, development starts next.</p>
       <p><b>Built with:</b> Figma · React · TypeScript · HTML5 · CSS3</p>
-      <img src="https://img.shields.io/badge/status-design_phase-80b9ea?style=flat-square" alt="Status: design phase"/>
+      <img src="https://img.shields.io/badge/status-design_phase-2c9ded?style=flat-square" alt="Status: design phase"/>
     </td>
     <td width="45%" align="center">
       <img src="assets/portfolio.png" width="220" alt="Portfolio 2.0 design preview"/>
