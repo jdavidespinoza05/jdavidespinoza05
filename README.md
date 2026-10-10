@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/header.svg?v=4" width="100%" alt="Jose David Espinoza - Full-Stack Developer in the making"/>
+<img src="assets/header.svg?v=5" width="100%" alt="Jose David Espinoza - Full-Stack Developer in the making"/>
 
 <a href="https://www.linkedin.com/in/jdavid-espinoza">
   <img src="https://readme-typing-svg.demolab.com/?lines=Computer+Engineering+Student+%40+TEC+Costa+Rica;Building+things+from+scratch;Aspiring+Full-Stack+Developer;Game+Dev+in+Unity;Always+learning+something+new&font=Fira+Code&center=true&width=550&height=45&color=80b9ea&vCenter=true&size=20" alt="Typing intro"/>
