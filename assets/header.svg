@@ -1,229 +1,296 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-     viewBox="0 0 1200 320" width="1200" height="320" role="img"
-     aria-label="Jose David Espinoza - Full-Stack Developer in the making">
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1200 326" width="1200" height="326" role="img"
+     aria-label="Jose David Espinoza - Full-Stack Developer in the making" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpjMGI5OGVhNS1hYmViLTRlYjAtOGU1NC03NWY2YjNkZjVlZTQAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaCAf5bWM/2+HbhmPMCESjdkAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDoxMDVhNTVmNC0xNzY2LTQ0NTctOTYwYy1jZWE0NGFmZTA0MDFscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoEcpE727M+8Euaed44bi21AAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggZjQj34GSRMQBAWw4KfCM+IVM1H+vmGrRTJuM+c9lEqmkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaCj4iy/prUiE9VVGK4KBoLEAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCDmAlqA4QI+WpDUOf/DwRcLboKgREc9VL26euUeo6uC9WRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjzZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmMwYjk4ZWE1LWFiZWItNGViMC04ZTU0LTc1ZjZiM2RmNWVlNC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmU0NWEyNTgyLTQ4MjItNGQ3MS04YmVhLTQwOWY0NjFmOGUxNXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBmNCPfgZJExAEBbDgp8Iz4hUzUf6+YatFMm4z5z2USqaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggQx0f+OKr1xuSe2DBGbwHa7Jw4Za/YZFFyWmmFh9eEQeiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggODoVVfT6iLfGWXRYFOzmc/XmANOmSKOvPEWcfkBBXl10Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQHAZR+atJR63Co63eUIb+wEPH0dBqXX0mxd+qYV8/hnEh1W9XS0thd8I6Z7Muq295Bvlga9+HFQBOHTBZkL167U=</c2pa:manifest></metadata>
   <title>Jose David Espinoza</title>
 
-  <!-- ============================================================
-       LAYOUT (viewBox 1200 x 320)
-       frame (glass) ...... x 10..1190, y 10..310
-       title bar .......... y 10..44
-       toolbar strip ...... y 44..64
-       content (sky) ...... y 64..260   <- clouds + text live here
-       control bar ........ y 260..302
-       ============================================================ -->
+  <!-- ==================================================================
+       Ventana estilo Windows Vista (Aero, ~2007) - Galería de fotos
+
+       LAYOUT (viewBox 1200 x 326)
+         marco de vidrio ...... x 12..1188, y 8..314  (borde de 8px)
+         barra de título ...... y 8..40               (sobre el vidrio)
+         barra de comandos .... y 40..72              (oscura y brillante)
+         contenido ............ y 72..250             (fondo liso)
+         barra de navegación .. y 250..306            (con el orbe de play)
+
+       Qué distingue a Vista de Windows 7 (lo que imita este archivo):
+         - El vidrio es más oscuro y tiene franjas diagonales muy marcadas.
+         - El título va en negro con un "halo" blanco detrás, no sobre fondo.
+         - Los botones de la esquina cuelgan del borde superior: arriba son
+           rectos y abajo redondeados. Cerrar es rojo con brillo inferior.
+         - Las barras de herramientas son casi negras con un corte de brillo
+           a la mitad (el famoso efecto "glossy" de 2007).
+         - Solo las esquinas superiores de la ventana son redondeadas.
+       ================================================================== -->
 
   <defs>
-    <!-- Aero glass: the translucent blue frame of Windows 7 -->
+    <!-- == VIDRIO ==
+         Vista mezclaba el color del vidrio con lo que había detrás + blur.
+         Un SVG en GitHub no puede leer lo que hay detrás, así que el vidrio
+         es opaco y las franjas (más abajo) dan la sensación de reflejo. -->
     <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0"    stop-color="#e4eff9"/>
-      <stop offset="0.12" stop-color="#c9dcef"/>
-      <stop offset="1"    stop-color="#b2c9e2"/>
+      <stop offset="0"    stop-color="#7d97ae"/>
+      <stop offset="0.10" stop-color="#5d7891"/>
+      <stop offset="1"    stop-color="#465f77"/>
     </linearGradient>
+    <!-- brillo que cae desde arriba en la barra de título -->
     <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.8"/>
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.45"/>
       <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
 
-    <!-- Sky: change these three stops to recolor the whole scene -->
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0"    stop-color="#3a80cf"/>
-      <stop offset="0.55" stop-color="#80b9ea"/>
-      <stop offset="1"    stop-color="#d4ebfb"/>
+    <!-- == BOTONES DE LA ESQUINA ==
+         El truco "glossy": dos stops con el MISMO offset (0.5) crean un corte
+         duro en lugar de una transición suave. Mitad de arriba clara, mitad
+         de abajo oscura = superficie curva que refleja una luz de techo. -->
+    <linearGradient id="capGlass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"    stop-color="#ffffff" stop-opacity="0.50"/>
+      <stop offset="0.5"  stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="0.5"  stop-color="#ffffff" stop-opacity="0.04"/>
+      <stop offset="1"    stop-color="#ffffff" stop-opacity="0.20"/>
     </linearGradient>
-
-    <linearGradient id="toolbar" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#f6f9fd"/>
-      <stop offset="1" stop-color="#dde8f4"/>
+    <linearGradient id="capClose" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"    stop-color="#eaa596"/>
+      <stop offset="0.5"  stop-color="#d77562"/>
+      <stop offset="0.5"  stop-color="#b8331d"/>
+      <stop offset="1"    stop-color="#c5402a"/>
     </linearGradient>
-    <linearGradient id="bottombar" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0"   stop-color="#eef4fb"/>
-      <stop offset="0.5" stop-color="#d9e6f3"/>
-      <stop offset="1"   stop-color="#c3d6ea"/>
-    </linearGradient>
-    <linearGradient id="capBtn" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0"   stop-color="#f7fafd"/>
-      <stop offset="0.5" stop-color="#e3ecf6"/>
-      <stop offset="1"   stop-color="#cbdbec"/>
-    </linearGradient>
-    <linearGradient id="closeBtn" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0"   stop-color="#eba495"/>
-      <stop offset="0.5" stop-color="#d0533b"/>
-      <stop offset="1"   stop-color="#c2412a"/>
-    </linearGradient>
-    <radialGradient id="orb" cx="0.5" cy="0.3" r="0.75">
-      <stop offset="0"   stop-color="#b9e2ff"/>
-      <stop offset="0.5" stop-color="#2f86d8"/>
-      <stop offset="1"   stop-color="#0d4c96"/>
+    <!-- el resplandor rojo que sube desde abajo del botón cerrar -->
+    <radialGradient id="closeGlow" cx="0.5" cy="1" r="0.6">
+      <stop offset="0" stop-color="#ffb08f" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ff6a3d" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Only what's inside the content area gets drawn for clouds -->
-    <clipPath id="content">
-      <rect x="18" y="40" width="1164" height="220"/>
-    </clipPath>
+    <!-- == BARRAS OSCURAS (comandos y navegación) == -->
+    <linearGradient id="cmdbar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"    stop-color="#4b6884"/>
+      <stop offset="0.5"  stop-color="#2f4a63"/>
+      <stop offset="0.5"  stop-color="#1c334a"/>
+      <stop offset="1"    stop-color="#203a53"/>
+    </linearGradient>
+    <linearGradient id="navbar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"    stop-color="#4f7193"/>
+      <stop offset="0.5"  stop-color="#2d4f70"/>
+      <stop offset="0.5"  stop-color="#1a3654"/>
+      <stop offset="1"    stop-color="#22436a"/>
+    </linearGradient>
+    <!-- botones tipo píldora (anterior / siguiente) -->
+    <linearGradient id="pill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"   stop-color="#ffffff" stop-opacity="0.30"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.02"/>
+      <stop offset="1"   stop-color="#ffffff" stop-opacity="0.10"/>
+    </linearGradient>
 
-    <!-- Base mist shape: a few wide, flat ellipses. On their own they look like
-         blobs; the "fog" filter below is what turns them into wispy mist. -->
-    <g id="cloud">
-      <ellipse cx="0"   cy="0"   rx="130" ry="26"/>
-      <ellipse cx="-60" cy="-10" rx="70"  ry="22"/>
-      <ellipse cx="50"  cy="-14" rx="80"  ry="24"/>
-      <ellipse cx="110" cy="4"   rx="55"  ry="16"/>
-    </g>
+    <!-- == ORBE DE PRESENTACIÓN ==
+         Radial con el centro corrido hacia abajo: la luz "entra" por arriba
+         y rebota en el fondo de la esfera, igual que el botón de Inicio. -->
+    <radialGradient id="orb" cx="0.5" cy="0.85" r="0.75">
+      <stop offset="0"    stop-color="#6fd0ff"/>
+      <stop offset="0.45" stop-color="#1f7fd6"/>
+      <stop offset="1"    stop-color="#0a3b78"/>
+    </radialGradient>
+    <linearGradient id="orbShine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
 
-    <!-- FOG FILTER - how the realistic mist is made:
-         1. feTurbulence generates random "fractal noise" (like Perlin noise in games).
-            baseFrequency = size of the puffs (lower = bigger, softer);
-            the 2nd value is higher so the noise is stretched sideways, like wind.
-         2. feDisplacementMap uses that noise to push the ellipse's pixels around,
-            so its hard edge becomes ragged and wispy. scale = how much it's torn apart.
-         3. feColorMatrix turns the noise into a white texture with transparent holes,
-            and feComposite "in" keeps that texture only inside the torn shape.
-         4. feGaussianBlur softens everything so it reads as mist, not as a shape. -->
-    <filter id="fog" x="-40%" y="-120%" width="180%" height="340%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.009 0.03" numOctaves="4" seed="7" result="noise"/>
-      <feDisplacementMap in="SourceGraphic" in2="noise" scale="70" xChannelSelector="R" yChannelSelector="G" result="torn"/>
-      <feGaussianBlur in="torn" stdDeviation="7" result="shape"/>
-      <feColorMatrix in="noise" type="matrix" result="texture"
-        values="0 0 0 0 1
-                0 0 0 0 1
-                0 0 0 0 1
-                0 0 0 2.2 -0.55"/>
-      <feComposite in="texture" in2="shape" operator="in" result="wisps"/>
-      <feGaussianBlur in="wisps" stdDeviation="2.5" result="wispsSoft"/>
+    <!-- == CONTENIDO ==
+         "Liso", pero con un degradado casi invisible para que no se vea plano
+         ni compita con el texto. -->
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef3f8"/>
+    </linearGradient>
+
+    <!-- forma de la ventana: solo las esquinas de ARRIBA redondeadas -->
+    <path id="frameShape" d="M12 314 V18 A10 10 0 0 1 22 8 H1178 A10 10 0 0 1 1188 18 V314 Z"/>
+    <clipPath id="frameClip"><use href="#frameShape"/></clipPath>
+
+    <!-- == FILTROS == -->
+    <!-- Halo del título: se engorda la silueta del texto (feMorphology),
+         se difumina, se pinta de blanco y se pone DETRÁS del texto negro. -->
+    <filter id="titleGlow" x="-15%" y="-120%" width="130%" height="340%">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="3" result="fat"/>
+      <feGaussianBlur in="fat" stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#ffffff" flood-opacity="0.85"/>
+      <feComposite in2="blur" operator="in" result="glow"/>
       <feMerge>
-        <feMergeNode in="shape"/>
-        <feMergeNode in="wispsSoft"/>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-
-    <!-- two stacked shadows: a tight one for edge contrast, a wide one for glow,
-         so white text stays readable even when a white cloud drifts behind it -->
-    <filter id="textShadow" x="-10%" y="-40%" width="120%" height="180%">
-      <feDropShadow dx="0" dy="1" stdDeviation="1"   flood-color="#0b3b73" flood-opacity="0.85"/>
-      <feDropShadow dx="0" dy="2" stdDeviation="4.5" flood-color="#0b3b73" flood-opacity="0.6"/>
+    <!-- sombra suave de toda la ventana (Vista las tenía enormes) -->
+    <filter id="windowShadow" x="-5%" y="-10%" width="110%" height="125%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000000" flood-opacity="0.35"/>
     </filter>
-    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
-      <feGaussianBlur stdDeviation="1.5"/>
+    <!-- sombra mínima para que los íconos claros se lean sobre la barra -->
+    <filter id="iconShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1" stdDeviation="0.6" flood-color="#000000" flood-opacity="0.6"/>
     </filter>
   </defs>
 
   <style>
-    /* Windows 7 used Segoe UI; the rest are fallbacks for Mac/Linux viewers */
-    text { font-family: "Segoe UI", Tahoma, Verdana, "DejaVu Sans", sans-serif; }
+    /* Segoe UI nació con Vista. En Mac/Linux cae a las alternativas. */
+    text { font-family: "Segoe UI", "Segoe UI Variable", Tahoma, Verdana, "DejaVu Sans", sans-serif; }
 
-    /* Each cloud moves right -> left forever. Duration = speed.
-       Negative delays start them mid-trip so the sky is never empty. */
-    .drift { animation: drift linear infinite; }
-    @keyframes drift {
-      from { transform: translateX(0); }
-      to   { transform: translateX(-1900px); }
-    }
-    .c1 { animation-duration: 70s;  animation-delay: -10s; }
-    .c2 { animation-duration: 95s;  animation-delay: -45s; }
-    .c3 { animation-duration: 58s;  animation-delay: -32s; }
-    .c4 { animation-duration: 85s;  animation-delay: -68s; }
-    .c5 { animation-duration: 66s;  animation-delay: -55s; }
-    .c6 { animation-duration: 110s; animation-delay: -92s; }
-    .c7 { animation-duration: 78s;  animation-delay: -25s; }
-
-    /* Text fades in once, a little staggered */
-    .in1 { animation: rise 1.2s ease-out both; }
-    .in2 { animation: rise 1.2s 0.35s ease-out both; }
-    .in3 { animation: rise 1.2s 0.9s ease-out both; }
+    /* El texto aparece una sola vez, escalonado */
+    .in1 { animation: rise 1s 0.15s ease-out both; }
+    .in2 { animation: rise 1s 0.55s ease-out both; }
     @keyframes rise {
-      from { opacity: 0; transform: translateY(8px); }
+      from { opacity: 0; transform: translateY(6px); }
       to   { opacity: 1; transform: translateY(0); }
     }
 
-    /* The slideshow button breathes, like it's waiting for a click */
+    /* El orbe "respira", como esperando un clic */
     .pulse { animation: pulse 3.2s ease-in-out infinite; }
     @keyframes pulse {
       0%, 100% { opacity: 0; }
-      50%      { opacity: 0.55; }
+      50%      { opacity: 0.45; }
     }
 
     @media (prefers-reduced-motion: reduce) {
-      .drift, .in1, .in2, .in3, .pulse { animation: none; }
+      .in1, .in2, .pulse { animation: none; }
     }
   </style>
 
-  <!-- ===================== WINDOW FRAME ===================== -->
-  <rect x="10" y="10" width="1180" height="300" rx="7" fill="url(#glass)" stroke="#57789c" stroke-width="1.2"/>
-  <rect x="11" y="11" width="1178" height="34" rx="6" fill="url(#sheen)"/>
-  <!-- light streaks across the glass, very Aero -->
-  <g fill="#ffffff" opacity="0.18">
-    <polygon points="210,11 262,11 232,44 180,44"/>
-    <polygon points="280,11 300,11 270,44 250,44"/>
-    <polygon points="760,11 830,11 800,44 730,44"/>
-  </g>
+  <!-- ============================ MARCO ============================ -->
+  <use href="#frameShape" fill="url(#glass)" filter="url(#windowShadow)"/>
 
-  <!-- title: tiny picture icon + file name -->
-  <text x="30" y="31" font-size="13" fill="#1d3a5c">david_espinoza.exe</text>
-
-  <!-- minimize / maximize / close -->
-  <g stroke="#4c6d92" stroke-width="1">
-    <rect x="1071" y="15" width="27" height="19" rx="3" fill="url(#capBtn)"/>
-    <rect x="1098" y="15" width="27" height="19" rx="3" fill="url(#capBtn)"/>
-    <rect x="1125" y="15" width="47" height="19" rx="3" fill="url(#closeBtn)" stroke="#8e2c1c"/>
-  </g>
-  <rect x="1079" y="27" width="11" height="3" rx="0.5" fill="#2c4b6e"/>
-  <rect x="1106" y="20" width="11" height="9" fill="none" stroke="#2c4b6e" stroke-width="1.6"/>
-  <path d="M1143 19.5 L1154 30.5 M1154 19.5 L1143 30.5" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/>
-
-  <!-- ===================== SKY (content) ===================== -->
-  <rect x="18" y="45" width="1164" height="230" fill="url(#sky)"/>
-
-  <g clip-path="url(#content)">
-    <!-- drifting mist: translate(start_x y) scale(size).
-         Each one sits in a different spot of the noise, so no two look alike. -->
+  <g clip-path="url(#frameClip)">
+    <!-- Franjas diagonales del vidrio: el sello visual de Vista.
+         Son polígonos blancos/negros con muy poca opacidad; donde se
+         superponen se forma el "reflejo" irregular. -->
     <g fill="#ffffff">
-      <g class="drift c6" opacity="0.35"><use xlink:href="#cloud" href="#cloud" filter="url(#fog)" transform="translate(1450 120) scale(1.3 1.1)"/></g>
-      <g class="drift c4" opacity="0.45"><use xlink:href="#cloud" href="#cloud" filter="url(#fog)" transform="translate(1400 88) scale(0.7)"/></g>
-      <g class="drift c2" opacity="0.5"> <use xlink:href="#cloud" href="#cloud" filter="url(#fog)" transform="translate(1420 160) scale(0.9)"/></g>
-      <g class="drift c1" opacity="0.7"> <use xlink:href="#cloud" href="#cloud" filter="url(#fog)" transform="translate(1430 112) scale(1.1)"/></g>
-      <g class="drift c7" opacity="0.55"><use xlink:href="#cloud" href="#cloud" filter="url(#fog)" transform="translate(1400 200) scale(0.8)"/></g>
-      <g class="drift c5" opacity="0.65"><use xlink:href="#cloud" href="#cloud" filter="url(#fog)" transform="translate(1440 236) scale(1.2)"/></g>
-      <g class="drift c3" opacity="0.6"> <use xlink:href="#cloud" href="#cloud" filter="url(#fog)" transform="translate(1460 256) scale(1.5 1.2)"/></g>
+      <polygon opacity="0.10" points="120,8 230,8 120,320 10,320"/>
+      <polygon opacity="0.07" points="260,8 300,8 190,320 150,320"/>
+      <polygon opacity="0.12" points="520,8 660,8 550,320 410,320"/>
+      <polygon opacity="0.06" points="700,8 730,8 620,320 590,320"/>
+      <polygon opacity="0.10" points="930,8 1010,8 900,320 820,320"/>
+    </g>
+    <g fill="#000000">
+      <polygon opacity="0.08" points="360,8 470,8 360,320 250,320"/>
+      <polygon opacity="0.07" points="1060,8 1200,8 1090,320 950,320"/>
+    </g>
+    <rect x="12" y="8" width="1176" height="20" fill="url(#sheen)"/>
+  </g>
+
+  <!-- doble borde: línea oscura afuera + línea clara adentro = espesor -->
+  <use href="#frameShape" fill="none" stroke="#18232f" stroke-width="1"/>
+  <path d="M13.5 314 V18 A8.5 8.5 0 0 1 22 9.5 H1178 A8.5 8.5 0 0 1 1186.5 18 V314"
+        fill="none" stroke="#ffffff" stroke-opacity="0.45" stroke-width="1"/>
+
+  <!-- ======================= BARRA DE TÍTULO ======================= -->
+  <!-- ícono de la app: una mini ventanita -->
+  <g transform="translate(24 16)">
+    <rect x="0.5" y="0.5" width="15" height="13" rx="1.5" fill="#ffffff" stroke="#1d3e63"/>
+    <rect x="1" y="1" width="14" height="3.5" fill="#3b7fc8"/>
+    <rect x="3" y="7" width="7" height="1.6" fill="#7da7d4"/>
+    <rect x="3" y="10" width="10" height="1.6" fill="#b7cde4"/>
+  </g>
+  <text x="48" y="28" font-size="13" fill="#000000" filter="url(#titleGlow)">david_espinoza.exe</text>
+
+  <!-- Botones: cuelgan del borde superior (arriba rectos, abajo redondeados) -->
+  <!-- minimizar + maximizar comparten un mismo contorno -->
+  <path d="M1086 9 H1140 V24 A4 4 0 0 1 1136 28 H1090 A4 4 0 0 1 1086 24 Z"
+        fill="url(#capGlass)" stroke="#16222e" stroke-opacity="0.85"/>
+  <line x1="1113" y1="9" x2="1113" y2="28" stroke="#16222e" stroke-opacity="0.7"/>
+  <path d="M1087 10 H1139 V24 A3 3 0 0 1 1136 27 H1090 A3 3 0 0 1 1087 24 Z"
+        fill="none" stroke="#ffffff" stroke-opacity="0.35"/>
+
+  <!-- cerrar: rojo + brillo inferior -->
+  <path d="M1141 9 H1184 V24 A4 4 0 0 1 1180 28 H1145 A4 4 0 0 1 1141 24 Z"
+        fill="url(#capClose)" stroke="#4a0f06" stroke-opacity="0.9"/>
+  <path d="M1142 18 H1183 V24 A3 3 0 0 1 1180 27 H1145 A3 3 0 0 1 1142 24 Z" fill="url(#closeGlow)"/>
+  <path d="M1142 10 H1183 V24 A3 3 0 0 1 1180 27 H1145 A3 3 0 0 1 1142 24 Z"
+        fill="none" stroke="#ffffff" stroke-opacity="0.35"/>
+
+  <!-- Glifos: en Vista son blancos con contorno oscuro. Se dibujan dos veces:
+       primero un trazo grueso oscuro y encima el blanco más delgado. -->
+  <g fill="none" stroke-linecap="square">
+    <g stroke="#1b2733" stroke-width="4" stroke-opacity="0.75">
+      <line x1="1095" y1="21" x2="1104" y2="21"/>
+      <rect x="1122" y="14" width="9" height="7"/>
+      <path d="M1158 14 L1167 22 M1167 14 L1158 22"/>
+    </g>
+    <g stroke="#ffffff" stroke-width="2">
+      <line x1="1095" y1="21" x2="1104" y2="21"/>
+      <rect x="1122" y="14" width="9" height="7"/>
+      <path d="M1158 14 L1167 22 M1167 14 L1158 22"/>
     </g>
   </g>
 
+  <!-- ====================== BARRA DE COMANDOS ====================== -->
+  <rect x="20" y="40" width="1160" height="32" fill="url(#cmdbar)"/>
+  <line x1="20" y1="40.5" x2="1180" y2="40.5" stroke="#8fb0cc" stroke-opacity="0.7"/>
+  <line x1="20" y1="71.5" x2="1180" y2="71.5" stroke="#0b1724"/>
 
-  <!-- name + tagline -->
-  <g filter="url(#textShadow)">
-    <text class="in2" x="600" y="172" font-size="54" font-weight="600" fill="#ffffff" text-anchor="middle">Jose David Espinoza</text>
-    <text class="in3" x="600" y="212" font-size="20" fill="#ffffff" text-anchor="middle">Full-Stack Developer in the making</text>
+  <g font-size="12.5" fill="#ffffff" filter="url(#iconShadow)">
+    <text x="38"  y="61">File ▾</text>
+    <text x="104" y="61">Projects</text>
+    <text x="180" y="61">Tech Stack</text>
+    <text x="270" y="61">Games ▾</text>
+    <text x="346" y="61">About</text>
   </g>
 
-  <!-- ===================== CONTROL BAR ===================== -->
-  <rect x="18" y="260" width="1164" height="42" fill="url(#bottombar)"/>
-  <line x1="18" y1="260.5" x2="1182" y2="260.5" stroke="#98b1cb"/>
-
-  <!-- left: zoom + fit -->
-  <g stroke="#2e5f95" stroke-width="2" fill="none" stroke-linecap="round">
-    <circle cx="52" cy="279" r="6"/>
-    <line x1="56.5" y1="283.5" x2="61" y2="288"/>
-    <rect x="86" y="273" width="14" height="12" rx="1.5"/>
+  <!-- caja de búsqueda (Vista la ponía en casi todas las ventanas) -->
+  <rect x="972.5" y="47.5" width="196" height="18" rx="2" fill="#ffffff" stroke="#0d1b29"/>
+  <text x="980" y="60.5" font-size="11.5" font-style="italic" fill="#8a96a3">Search</text>
+  <g fill="none" stroke="#3a5a7a" stroke-width="1.6" stroke-linecap="round">
+    <circle cx="1155" cy="55.5" r="4"/>
+    <line x1="1158" y1="58.5" x2="1161.5" y2="62"/>
   </g>
-  <path d="M66 279 l4 0 l-2 3 z" fill="#2e5f95"/>
 
-  <!-- center: previous / slideshow orb / next -->
-  <rect x="530" y="272" width="40" height="18" rx="9" fill="url(#capBtn)" stroke="#7b98b8"/>
-  <path d="M546 281 l8 -5 v10 z M544 276 v10" fill="#2e5f95" stroke="#2e5f95" stroke-width="1.6"/>
-  <rect x="630" y="272" width="40" height="18" rx="9" fill="url(#capBtn)" stroke="#7b98b8"/>
-  <path d="M654 281 l-8 -5 v10 z M656 276 v10" fill="#2e5f95" stroke="#2e5f95" stroke-width="1.6"/>
+  <!-- ========================== CONTENIDO ========================== -->
+  <rect x="20" y="72" width="1160" height="178" fill="url(#paper)"/>
 
-  <circle cx="600" cy="281" r="17" fill="url(#orb)" stroke="#0b3d7a" stroke-width="1.2"/>
-  <circle class="pulse" cx="600" cy="281" r="17" fill="#bfe6ff"/>
-  <ellipse cx="600" cy="273" rx="11" ry="5.5" fill="#ffffff" opacity="0.45"/>
-  <path d="M595 273.5 L607 281 L595 288.5 Z" fill="#ffffff"/>
+  <text class="in1" x="600" y="160" font-size="54" font-weight="300"
+        fill="#1b4f8a" text-anchor="middle" letter-spacing="0.5">Jose David Espinoza</text>
+  <text class="in2" x="600" y="198" font-size="19"
+        fill="#5a6b7d" text-anchor="middle">Full-Stack Developer in the making</text>
 
-  <!-- right: rotate left / rotate right / delete -->
-  <g stroke="#2e6fb8" stroke-width="2.2" fill="none" stroke-linecap="round">
-    <path d="M1052 285 a7 7 0 1 1 7 4"/>
-    <path d="M1096 285 a7 7 0 1 0 -7 4"/>
+  <!-- ===================== BARRA DE NAVEGACIÓN ===================== -->
+  <rect x="20" y="250" width="1160" height="56" fill="url(#navbar)"/>
+  <line x1="20" y1="250.5" x2="1180" y2="250.5" stroke="#0b1724"/>
+  <line x1="20" y1="251.5" x2="1180" y2="251.5" stroke="#93b5d6" stroke-opacity="0.6"/>
+
+  <!-- izquierda: zoom + ajustar a ventana -->
+  <g stroke="#e3eef9" stroke-width="2" fill="none" stroke-linecap="round" filter="url(#iconShadow)">
+    <circle cx="52" cy="276" r="6"/>
+    <line x1="56.5" y1="280.5" x2="61" y2="285"/>
+    <rect x="88" y="271" width="15" height="12" rx="1.5"/>
   </g>
-  <path d="M1048 281 l4 5 l4 -4 z" fill="#2e6fb8"/>
-  <path d="M1100 281 l-4 5 l-4 -4 z" fill="#2e6fb8"/>
-  <line x1="1110" y1="272" x2="1110" y2="290" stroke="#aac0d6"/>
-  <path d="M1131 275 L1143 287 M1143 275 L1131 287" stroke="#d0402b" stroke-width="3" stroke-linecap="round"/>
+  <path d="M67 276 l5 0 l-2.5 3 z" fill="#e3eef9"/>
+
+  <!-- centro: anterior / orbe / siguiente -->
+  <rect x="524.5" y="268.5" width="52" height="20" rx="10" fill="url(#pill)" stroke="#0e2238"/>
+  <rect x="623.5" y="268.5" width="52" height="20" rx="10" fill="url(#pill)" stroke="#0e2238"/>
+  <g fill="#ffffff" filter="url(#iconShadow)">
+    <path d="M543 278.5 l9 -5.5 v11 z"/>
+    <rect x="540" y="273" width="2.2" height="11"/>
+    <path d="M657 278.5 l-9 -5.5 v11 z"/>
+    <rect x="657.8" y="273" width="2.2" height="11"/>
+  </g>
+
+  <!-- el orbe: anillo oscuro + esfera + reflejo + triángulo -->
+  <circle cx="600" cy="278" r="23" fill="#0c2340"/>
+  <circle cx="600" cy="278" r="21" fill="url(#orb)" stroke="#5aa7e6" stroke-opacity="0.6"/>
+  <circle class="pulse" cx="600" cy="278" r="21" fill="#a8ddff"/>
+  <ellipse cx="600" cy="268" rx="14" ry="8.5" fill="url(#orbShine)"/>
+  <path d="M594 269.5 L609 278 L594 286.5 Z" fill="#ffffff" filter="url(#iconShadow)"/>
+
+  <!-- derecha: rotar izq / rotar der / eliminar -->
+  <g stroke="#e3eef9" stroke-width="2.2" fill="none" stroke-linecap="round" filter="url(#iconShadow)">
+    <path d="M1046 282 a7 7 0 1 1 7 4"/>
+    <path d="M1094 282 a7 7 0 1 0 -7 4"/>
+  </g>
+  <path d="M1042 278 l4 5 l4 -4 z" fill="#e3eef9"/>
+  <path d="M1098 278 l-4 5 l-4 -4 z" fill="#e3eef9"/>
+  <line x1="1112" y1="266" x2="1112" y2="290" stroke="#0b1724"/>
+  <line x1="1113" y1="266" x2="1113" y2="290" stroke="#93b5d6" stroke-opacity="0.4"/>
+  <g stroke-linecap="round">
+    <path d="M1133 272 L1145 284 M1145 272 L1133 284" stroke="#5a1208" stroke-width="5"/>
+    <path d="M1133 272 L1145 284 M1145 272 L1133 284" stroke="#ff5a3c" stroke-width="3"/>
+  </g>
 </svg>
