@@ -89,16 +89,10 @@
     <!-- Forma de la ventana: XP redondea SOLO las esquinas de arriba -->
     <path id="frameShape" d="M10 306 V16 A10 10 0 0 1 20 6 H1180 A10 10 0 0 1 1190 16 V306 Z"/>
 
-    <filter id="windowShadow" x="-5%" y="-10%" width="110%" height="125%">
-      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#000000" flood-opacity="0.3"/>
-    </filter>
-    <!-- La sombra del título en XP es dura (sin blur) y corrida 1px -->
-    <filter id="titleShadow" x="-5%" y="-30%" width="110%" height="160%">
-      <feDropShadow dx="1" dy="1" stdDeviation="0" flood-color="#0f1089" flood-opacity="1"/>
-    </filter>
-    <filter id="nameShadow" x="-10%" y="-40%" width="120%" height="180%">
-      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#0b3a85" flood-opacity="0.55"/>
-    </filter>
+    <!-- Sin filtros a propósito: un filtro SVG se dibuja como imagen de
+         píxeles, y los navegadores móviles la generan a baja resolución
+         (texto borroso). Todas las sombras de abajo son copias vectoriales
+         desplazadas, que se ven nítidas a cualquier tamaño. -->
 
     <!-- ===== Íconos reutilizables, cada uno centrado en (0,0) =====
          Se dibujan una vez y se colocan con <use x="...">. -->
@@ -174,9 +168,11 @@
 
     .in1 { animation: rise 1s 0.15s ease-out both; }
     .in2 { animation: rise 1s 0.55s ease-out both; }
+    /* solo opacidad: animar transform hace que Safari/iOS convierta
+       el texto en imagen mientras dura la animación */
     @keyframes rise {
-      from { opacity: 0; transform: translateY(6px); }
-      to   { opacity: 1; transform: translateY(0); }
+      from { opacity: 0; }
+      to   { opacity: 1; }
     }
     @media (prefers-reduced-motion: reduce) {
       .in1, .in2 { animation: none; }
@@ -185,7 +181,8 @@
 
   <!-- ============================ MARCO ============================ -->
   <!-- 1) todo el marco en azul: los bordes laterales y el inferior -->
-  <use href="#frameShape" fill="#0a4fe3" filter="url(#windowShadow)"/>
+  <use href="#frameShape" fill="#000000" opacity="0.18" transform="translate(2 3)"/>
+  <use href="#frameShape" fill="#0a4fe3"/>
   <!-- 2) la barra de título encima, con su degradado -->
   <path d="M10 36 V16 A10 10 0 0 1 20 6 H1180 A10 10 0 0 1 1190 16 V36 Z" fill="url(#titlebar)"/>
   <!-- 3) líneas de luz y sombra que dan grosor (como los box-shadow inset de XP) -->
@@ -200,8 +197,8 @@
     <path d="M0.5 11 Q6 7 15.5 10 V15.5 H0.5 Z" fill="#3fa535"/>
     <ellipse cx="5" cy="5" rx="3" ry="1.4" fill="#ffffff" opacity="0.9"/>
   </g>
-  <text class="xp-title" x="42" y="26" font-size="13" font-weight="bold"
-        fill="#ffffff" filter="url(#titleShadow)">david_espinoza.exe</text>
+  <text class="xp-title" x="43" y="27" font-size="13" font-weight="bold" fill="#0f1089">david_espinoza.exe</text>
+  <text class="xp-title" x="42" y="26" font-size="13" font-weight="bold" fill="#ffffff">david_espinoza.exe</text>
 
   <!-- minimizar / maximizar / cerrar: 21x21, separados 2px, borde blanco -->
   <g stroke="#ffffff" stroke-width="1">
@@ -224,11 +221,15 @@
   <!-- ========================== CONTENIDO ========================== -->
   <rect x="14" y="58" width="1172" height="200" fill="url(#sky)"/>
 
-  <g filter="url(#nameShadow)">
-    <text class="in1 xp-title" x="600" y="152" font-size="54" font-weight="bold"
-          fill="#ffffff" text-anchor="middle">Jose David Espinoza</text>
-    <text class="in2" x="600" y="192" font-size="19"
-          fill="#ffffff" text-anchor="middle">Full-Stack Developer in the making</text>
+  <!-- cada grupo = sombra (copia azul, 2px abajo) + texto blanco encima;
+       la animación va en el grupo para que ambos aparezcan juntos -->
+  <g class="in1" font-size="54" font-weight="bold" text-anchor="middle">
+    <text class="xp-title" x="600" y="154" fill="#0b3a85" opacity="0.45">Jose David Espinoza</text>
+    <text class="xp-title" x="600" y="152" fill="#ffffff">Jose David Espinoza</text>
+  </g>
+  <g class="in2" font-size="19" text-anchor="middle">
+    <text x="600" y="193.5" fill="#0b3a85" opacity="0.5">Full-Stack Developer in the making</text>
+    <text x="600" y="192" fill="#ffffff">Full-Stack Developer in the making</text>
   </g>
 
   <!-- ===================== BARRA DE HERRAMIENTAS ===================== -->
