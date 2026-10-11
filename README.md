@@ -46,7 +46,7 @@ Computer Engineering student at **Tecnológico de Costa Rica (TEC)**, working to
     <td width="45%">
       <h3>Uminori</h3>
       <p>A cozy 3D exploration game set on quiet islands surrounded by the sea. Retro, low-res look. More to come...</p>
-      <p><b>Built with:</b> Unity · C# · Shader Graph</p>
+      <p><b>Built with:</b> Unity · C# · Blender · Figma </p>
       <img src="https://img.shields.io/badge/status-in_development-78a200?style=flat-square" alt="Status: in development"/>
     </td>
   </tr>
