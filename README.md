@@ -55,7 +55,7 @@ Computer Engineering student at **Tecnológico de Costa Rica (TEC)**, working to
       <h3>Portfolio 2.0</h3>
       <p>Rebuilding my personal portfolio from scratch and no AI, with a retro-desktop aesthetic. Designing in Figma now, development starts next.</p>
       <p><b>Built with:</b> Figma · React · TypeScript · HTML5 · CSS3</p>
-      <img src="https://img.shields.io/badge/status-design_phase-2c9ded?style=flat-square" alt="Status: design phase"/>
+      <img src="https://img.shields.io/badge/status-design_phase-2c9ded?style=flat-square" alt="Status: in development"/>
     </td>
     <td width="45%" align="center">
       <img src="assets/portfolio.png" width="220" alt="Portfolio 2.0 design preview"/>
