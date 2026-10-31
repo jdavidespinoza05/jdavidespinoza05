@@ -48,17 +48,17 @@ Computer Engineering student at **Tecnológico de Costa Rica (TEC)**, working to
 <p>A cozy 3D exploration and fishing game set on islands surrounded by the sea. Retro, low-res look.</p>
 <p><b>Built with:</b> Unity · C# · Blender · Figma</p>
 
-<hr/>
+<br/>
 
 <h3>Portfolio 2.0</h3>
 <img src="https://img.shields.io/badge/status-design_phase-2c9ded?style=flat-square" alt="Status: design phase"/>
 <br/><br/>
-<img src="assets/portfolio.png" width="170" alt="Portfolio 2.0 design preview"/>
+<img src="assets/portfolio.png" width="420" alt="Portfolio 2.0 preview: retro-desktop style site with an introduction window"/>
 
 <p>Rebuilding my personal portfolio from scratch and no AI, with a retro-desktop aesthetic. Designing in Figma now, development starts next.</p>
 <p><b>Built with:</b> Figma · React · TypeScript · HTML5 · CSS3</p>
 
-<hr/>
+<br/>
 
 <h3>Altos de Santa Bárbara</h3>
 <img src="https://img.shields.io/badge/status-in_development-78a200?style=flat-square" alt="Status: in development"/>
@@ -71,9 +71,12 @@ Computer Engineering student at **Tecnológico de Costa Rica (TEC)**, working to
 <p>Website for an apartment project in Santa Bárbara de Heredia, Costa Rica. A <b>freelance project</b>, not a university assignment: I designed, built and deployed the whole site myself for a team of Construction Engineering students at TEC, who designed the building.</p>
 <p>Layered full-screen hero, interactive location map, floor plans and materials gallery, with separate desktop and mobile layouts.</p>
 <p><b>Built with:</b> Next.js · React · TypeScript · Tailwind CSS · MapLibre · Vercel</p>
-<p><sub>Source code is private because it contains the client's plans and renders.</sub></p>
 
 </div>
+
+<br/>
+
+---
 
 <div align="center">
 
